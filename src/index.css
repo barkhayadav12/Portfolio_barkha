@@ -1,0 +1,154 @@
+.homeContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:60px;
+  align-items: center;
+  height:91vh;
+  background-color:#D9CCFD;
+  background: url('./photos/bg.jpeg');
+  @media (max-width:769px)
+  {
+    flex-direction: column;
+    height: 120vh;
+  }
+  @media (max-width:320px)
+  {
+    flex-direction: column;
+    gap:30px;
+    height: 150vh;
+  }
+}
+.aboutContainer{
+  display: flex;
+  height:90vh;
+  background: url('./photos/bg.jpeg');
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width:769px) {
+    padding-top: 30px;
+  }
+  @media (max-width:320px) {
+    padding-top: 30px;
+    height: 120vh;
+  }
+
+}
+.aboutme{
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  font-size: larger;
+  @media (max-width:320px) {
+    padding-left: 10px;
+    
+  }
+  @media (max-width:769px) {
+    padding-left: 40px;
+  }
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  background-color:#D9CCFD;
+  align-items: center;
+  justify-content: center;
+  height:80vh;
+  background: url('./photos/bg.jpeg');
+  color:white;
+
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  width: 100%;
+}
+.links{
+  display: flex;
+  gap:15px;
+}
+.projectContainer{
+  height: 170vh;
+  background-color:whitesmoke;
+  background-color: aliceblue;
+  background-color:#D9CCFD;
+  padding-top: 20px;
+  background: url('./photos/bg.jpeg');
+  @media (max-width:769px) {
+    height: 400vh;
+  }
+  @media (max-width:320px) {
+    padding-top: 10px;
+    height: 520vh;
+  }
+}
+.majorProjects{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:20px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  gap:20px;
+  @media (max-width:769px) {
+    grid-template-columns: auto;
+    
+  }
+}
+img{
+  width: 270px;
+  height:150px;
+}
+.imgProjects{
+  display: flex;
+  justify-content: center;
+}
+.projects{
+  border:1px solid violet;
+  box-shadow: 0px 5px 10px 0px violet;
+  border-radius: 10px;
+  padding: 10px;
+}
+.projects h3{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color:cornflowerblue;
+  
+}
+.projects p{
+  padding-top: 9px;
+  padding-left: 9px;
+  color:white;
+}
+.projects h6{
+
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+.btnProjects{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btnP{
+  border:1px solid blue;
+  border-radius: 5px;
+  padding:5px 15px;
+  color:white;
+}
+.btnP a{
+  text-decoration: none;
+}
+.mini{
+  color:cornflowerblue;
+  text-align: center;
+}
