@@ -5,7 +5,7 @@ import chat from "./photos/chat.jpeg";
 import jokes from "./photos/jokes.jpeg";
 import plannar from "./photos/plannar.jpeg";
 import slider from "./photos/slider.jpeg";
-
+import adopt from './photos/adopt.jpeg'
 const Projects = () => {
   const soloWhisper = {
     img: "",
@@ -13,28 +13,28 @@ const Projects = () => {
     description:
       "Developed an application where the users can write about their adventures and post their daily happenings.",
     link:'https://github.com/barkhayadav12/SoloWhisper_SOLO',
-    tech: "The frontend is built using Ejs and Bootstrap and the Backend is built using Node.js,Express.js and DataBase is MongoDB.",
+    tech: "Tech stack: React.js,Bootstrap,Node.js,Express.js,MongoDB.",
   };
   const chatRoom = {
     img: "",
     title: "ChatRoom",
     description: "Developed a realtime chatting application.",
     link: "#",
-    tech: "Built with React.js, Node.js and used Socket.io library.",
+    tech: "Tech stack: React.js, Node.js and used Socket.io library.",
   };
   const cryptoTracker = {
     img: "",
-    title: "CrytoCurrency Tracker",
-    description: "Developed a CrytoCurrency Tracker.",
+    title: "FurryMate",
+    description: "Developed an app where the users can adopt a pet or donate a pet.",
     link: "#",
-    tech: "Built with React.js, Axios and Bootstrap.",
+    tech: "Tech stack: React.js,Bootstrap,Node.js,Express.js,MongoDB.",
   };
   const imageSlider = {
     img: "",
-    title: "Image Slider",
+    title: "CryptoCurrency Tracker",
     link: "#",
-    description: "A simple image slider.",
-    tech: "Built using HTML,CSS and JavaScript.",
+    description: "Developed an app that tracks cryptos.",
+    tech: "Tech stack: React.js,Bootstrap.",
   };
   const studyPlannar = {
     img: "",
@@ -42,14 +42,14 @@ const Projects = () => {
     description:
       "The users can plan their study TimeTable and can also make notes.",
     link: "#",
-    tech: "Built using HTML,CSS and JavaScript.",
+    tech: "Tech stack: HTML,CSS and JavaScript.",
   };
   const guessGame = {
     img: "",
     title: "Random Jokes",
     description: "Shows random jokes.",
     link: "#",
-    tech: "Built using HTML,CSS and JavaScript.",
+    tech: "Tech stack: HTML,CSS and JavaScript.",
   };
   return (
     <div class="projectContainer ">
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
           <div className="projects">
             <div className="imgProjects">
-              <img src={crypto} />
+              <img src={adopt} />
             </div>
             <h3>{cryptoTracker.title}</h3>
             <p>{cryptoTracker.description}</p>

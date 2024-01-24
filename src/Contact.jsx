@@ -5,9 +5,14 @@ const Contact = () => {
   return (
     <>
     <div className='contact'>
-        <h1>Get in touch with me</h1>
-        <p ><i class="bi bi-envelope-at"></i>Email: <span style={{color:'purple'}}>barkhayadav125@gmail.com</span></p>
-        <p><i class="bi bi-geo-alt-fill"></i> Address: <span style={{color:'purple'}}> Imphal,Manipur,India</span></p>
+        <h1 style={{color:'violet'}}>FIND ME ON</h1>
+        <h5>Feel free to connect with me</h5>
+        <div className='links'>
+        <a href=''><i class="bi bi-twitter-x"></i></a>
+        <a href=''><i class="bi bi-linkedin"></i></a>
+        <a href=''><i class="bi bi-github"></i></a>
+        <a href="mailto:barkhayadav125@gmail.com"><i class="bi bi-envelope-at"></i></a>
+        </div>
     </div>
     </>
   )
