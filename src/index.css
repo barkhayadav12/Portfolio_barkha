@@ -9,44 +9,52 @@
   background: url('./photos/bg.jpeg');
   @media (max-width:769px)
   {
-    flex-direction: column;
-    height: 120vh;
+    justify-content: center;
+    align-items: center;
   }
   @media (max-width:320px)
   {
-    flex-direction: column;
-    gap:30px;
-    height: 150vh;
+    justify-content: center;
+    align-items: center;
   }
 }
 .aboutContainer{
   display: flex;
-  height:90vh;
+  height:180vh;
+  flex-direction: column;
+  padding-top: 40px;
   background: url('./photos/bg.jpeg');
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
   @media (max-width:769px) {
-    padding-top: 30px;
+      padding-top: 30px;
+      flex-direction: column;
   }
   @media (max-width:320px) {
     padding-top: 30px;
-    height: 120vh;
+    height: 250vh;
   }
 
 }
 .aboutme{
-  padding-left: 50px;
+  padding-left: 60px;
   display: flex;
   flex-direction: column;
-  gap:20px;
   font-size: larger;
-  @media (max-width:320px) {
-    padding-left: 10px;
-    
-  }
+  gap:15px;
   @media (max-width:769px) {
     padding-left: 40px;
+  }
+  @media (max-width:320px) {
+    padding-left: 15px;
+    
+  }
+}
+.tech{
+  margin-top: 50px;
+  padding-left: 60px;
+  Color:white;
+  @media (max-width:320px)
+  {
+    padding-left: 15px;
   }
 }
 .contact{
@@ -58,7 +66,16 @@
   height:80vh;
   background: url('./photos/bg.jpeg');
   color:white;
-
+}
+.links{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.links a{
+  margin-left: 10px;
+}
+.links i{
+  font-size: 20px;
 }
 .footer{
   display: flex;
@@ -67,7 +84,7 @@
   align-items: center;
   background-color:white;
   width: 100%;
-}
+} 
 .links{
   display: flex;
   gap:15px;

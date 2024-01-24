@@ -10,7 +10,6 @@ const Home = () => {
         <Words/>
      </div>
      <div>
-     <img src={homebg} style={{width:'350px',height:'350px'}}/>
      </div>
     </div>
   )
