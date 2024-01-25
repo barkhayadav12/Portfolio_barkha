@@ -12,7 +12,7 @@ const Projects = () => {
     title: "SoloWhisper",
     description:
       "Developed an application where the users can write about their adventures and post their daily happenings.",
-    link:'https://github.com/barkhayadav12/SoloWhisper_SOLO',
+    link:'https://github.com/barkhayadav12/SoloWhisper',
     tech: "Tech stack: React.js,Bootstrap,Node.js,Express.js,MongoDB.",
   };
   const chatRoom = {
@@ -93,7 +93,7 @@ const Projects = () => {
             <h6>{cryptoTracker.tech}</h6>
             <div className="btnProjects">
               <button className="btnP">
-                <a href='https://github.com/barkhayadav12/CryptoTracker'><i class="bi bi-github"></i> GitHub</a>
+                <a href='https://github.com/barkhayadav12/AdoptMeHooman'><i class="bi bi-github"></i> GitHub</a>
               </button>
             </div>
           </div>
@@ -105,14 +105,14 @@ const Projects = () => {
           <div className="majorProjects">
             <div className="projects">
               <div className="imgProjects">
-                <img src={slider} />
+                <img src={crypto} />
               </div>
               <h3>{imageSlider.title}</h3>
               <p>{imageSlider.description}</p>
               <h6>{imageSlider.tech}</h6>
               <div className="btnProjects">
                 <button className="btnP">
-                  <a href='https://github.com/barkhayadav12/ImageSlider'><i class="bi bi-github"></i> GitHub</a>
+                  <a href='https://github.com/barkhayadav12/CryptoTracker'><i class="bi bi-github"></i> GitHub</a>
                 </button>
               </div>
             </div>
