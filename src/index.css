@@ -101,18 +101,18 @@ letter-spacing: 1px;
   gap:15px;
 }
 .projectContainer{
-  height: 170vh;
+  height: 250vh;
   background-color:whitesmoke;
   background-color: aliceblue;
   background-color:#D9CCFD;
   padding-top: 20px;
   background: url('./photos/bg.jpeg');
   @media (max-width:769px) {
-    height: 400vh;
+    height: 470vh;
   }
   @media (max-width:320px) {
     padding-top: 10px;
-    height: 520vh;
+    height: 610vh;
   }
 }
 .majorProjects{
@@ -126,10 +126,19 @@ letter-spacing: 1px;
     grid-template-columns: auto;
     
   }
+  @media (max-width:320px) {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+  }
 }
 img{
   width: 270px;
   height:150px;
+  @media (max-width:320px) {
+    width:250px;
+    
+  }
 }
 .imgProjects{
   display: flex;
